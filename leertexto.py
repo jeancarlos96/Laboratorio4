@@ -1,5 +1,11 @@
 def leertxt():
 	archi=open('datos.txt','r')
-	linea=archi.readline()
+	lin=archi.readline()
+	print (lin)
+
+	fr=lin.split(" ")
+	print (fr)
+	print (len(fr))
 	archi.close()
-	print (linea)
+#print (linea)
+linea=leertxt()
