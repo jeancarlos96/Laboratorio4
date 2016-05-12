@@ -1,6 +1,6 @@
 a = float(input("ingrese su estatura en pulgadas : "))
 b = float(input("ingrese su peso en libras : "))
-
+##Añadi un  Comentario ...¡¡¡¡
 def masa_corporal():
 	p = round(b * 703,2)
 	q = round(p / a,2)
