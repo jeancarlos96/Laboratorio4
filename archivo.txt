@@ -1,0 +1,41 @@
+Hola Mundo
+otro hola mundo
+prueba
+35
+Hola Mundo :D
+35
+ProgramacionProgramacionAvanzada
+
+Archivo
+print ('Hola Mundo')
+print ('otro hola mundo')
+print ('prueba')
+n=25
+m=10
+print (n+m)
+------------------------------
+def imprimir():
+	return ('Hola Mundo :D')
+
+frase = imprimir()	
+print (frase)
+--------------------------------
+def suma():
+	return n+m
+
+operacion = suma()
+print (operacion)
+-------------------------------
+x= 'Programacion'	
+y= ' Avanzada'
+
+2*x+y
+print (2*x+y)
+print (x[5]+y[2])
+print (3*x[-2]+4*y[-4])
+--------------------------------
+s = 'abcdefghijklmnopqrstuvwxyz'
+print (len(s))
+
+
+print (s.find('h'))
