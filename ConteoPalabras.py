@@ -1,4 +1,4 @@
-x=str(input("Ingrese una frase: "))
+x=str(input("Ingrese una frase:   "))
 print (x)
 
 num=x.split(" ")
